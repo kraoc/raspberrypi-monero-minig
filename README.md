@@ -65,3 +65,7 @@ You can get a good hashrate :)
 ![hashrate 2](hashrate2.png)
 
 There are sometimes up to 400 h/s instant hashrate !!!
+
+## Monitoring
+
+![monitoring 1](monitoring.png)
