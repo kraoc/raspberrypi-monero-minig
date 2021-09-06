@@ -1,4 +1,4 @@
-**Raspberry PI 4 Monero Mining**
+**Raspberry PI 4 Monero XMR Mining**
 
 ## Hardware
 
