@@ -44,6 +44,8 @@ You need to build and run an optimized Kernel with Huge Page support.
 
 I provided one here [on a Github repository](https://github.com/kraoc/raspberry-linux-64) with readme in *raspberry* folder.
 
+Once you build and reboot you PI with this new kernel, you can step to Miner.
+
 ## Miner
 
 I use Xmrig with custom build options.
