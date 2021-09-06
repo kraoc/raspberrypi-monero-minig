@@ -52,3 +52,16 @@ I use Xmrig with custom build options.
 
 I provided one here [on a Github repository](https://github.com/kraoc/raspberry-xmrig-64) with readme in *raspberry* folder.
 
+## Mining
+
+You can get a good hashrate :)
+
+*Instant Hashrate*
+
+![hashrate 1](hashrate.png)
+
+*Duration Hashrate*
+
+![hashrate 2](hashrate2.png)
+
+There are sometimes up to 400 h/s instant hashrate !!!
