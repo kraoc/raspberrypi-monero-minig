@@ -8,6 +8,36 @@
 * A micro SD card Class 10
 * A USB key
 
+
+## Prerequisites
+
+You must assemble your Pi inside the case with functionnal fan and run [Argon One Daemon](https://gitlab.com/DarkElvenAngel/argononed).
+
+This daemon provide cli to monitor and update settings on the fly.
+
+It's a good option to install & run [RPi-Monitor](https://github.com/XavierBerger/RPi-Monitor) to keep eyes on the beast.
+
+You should setup a light OS using Raspbian an setup a full light headless Rasperry Pi including static network to lower ressources usage.
+
+Once you get a fully functionnal lightweight Raspberry Pi you can step to overclocking
+
+## Overclocking
+
+With this case, you can overclock to 2.1Ghz safelly putting this lines bottom of /boot/config.txt
+
+```
+boot_delay=1
+over_voltage=6
+arm_freq=2100
+gpu_freq=750
+```
+
+One done, reboot a test if it run.
+
+If ok, step to new kernel building!
+
+If not, lower *arm_freq* enough to have a Pi booting.
+
 ## Kernel
 
 You need to build and run an optimized Kernel with Huge Page support.
@@ -20,10 +50,3 @@ I use Xmrig with custom build options.
 
 I provided one here [on a Github repository](https://github.com/kraoc/raspberry-xmrig-64) with readme in *raspberry* folder.
 
-## Prerequisites
-
-You must assemble your Pi inside the case with functionnal fan and run [Argon One Daemon](https://gitlab.com/DarkElvenAngel/argononed).
-
-This daemon provide cli to monitor and update settings on the fly.
-
-It's a good option to install & run [RPi-Monitor](https://github.com/XavierBerger/RPi-Monitor) to keep eyes on the beast.
