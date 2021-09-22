@@ -26,9 +26,30 @@ Once you get a fully functionnal lightweight Raspberry Pi you can step to overcl
 With this case, you can overclock to 2.1Ghz safelly putting this lines bottom of /boot/config.txt
 
 ```
+# Overclock
 boot_delay=1
+#max_framebuffers=0
+#gpu_mem=0
+```
+
+```
+# Overclock 2,1Ghz
 over_voltage=6
 arm_freq=2100
+gpu_freq=750
+```
+You can also try these overclock settings instead of 2.1Ghz
+```
+# Overclock 2,147Ghz
+over_voltage=8
+arm_freq=2147
+gpu_freq=750
+```
+
+```
+# Overclock 2,25Ghz
+over_voltage=11
+arm_freq=2250
 gpu_freq=750
 ```
 
