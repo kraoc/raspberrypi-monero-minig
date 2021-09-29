@@ -53,6 +53,14 @@ arm_freq=2250
 gpu_freq=750
 ```
 
+```
+# Overclock 2,3Ghz
+over_voltage=14
+arm_freq=2300
+gpu_freq=500
+#force_turbo=1
+```
+
 One done, reboot a test if it run.
 
 If ok, step to new kernel building!
